@@ -30,9 +30,22 @@ function calcTotals(bills)
 
 }
 
+function calcAverage(numbersAverage)
+{
+    let sum = 0;
+    const totals=[];
+    for (let i=0; i< numbersAverage.length; i++) {
+        sum+= totals[i]
+        //
+    }
+    return totals;
+
+}
 
 console.log(calcTips(bills));
 //console.log(tips);
 console.log(totals);
+
+
 
 
